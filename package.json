@@ -1,6 +1,6 @@
 {
   "name": "screepsmod-leaderboard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Leaderboard support for screeps private servers",
   "main": "index.js",
   "dependencies": {
