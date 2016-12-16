@@ -1,0 +1,28 @@
+{
+  "name": "screepsmod-leaderboard",
+  "version": "0.0.1",
+  "description": "Leaderboard support for screeps private servers",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkingry/screepsmod-leaderboard.git"
+  },
+  "keywords": [
+    "screeps",
+    "mod",
+    "backend"
+  ],
+  "author": "Joseph Kingry <jkingry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkingry/screepsmod-leaderboard/issues"
+  },
+  "homepage": "https://github.com/jkingry/screepsmod-leaderboard#readme"
+}
