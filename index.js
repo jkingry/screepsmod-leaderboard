@@ -37,7 +37,7 @@ module.exports = function (config) {
                 for(var user of data) {
                     if (!user.steam) continue;
 
-                    result.push({ season: "Current", user: user._id, username: user.username, score: user.gcl });
+                    result.push({ season: "Current", user: user._id, username: user.username, score: Number(user.gcl) });
                     users[user._id] = {
                         username: user.username,
                         badge: user.badge,
@@ -45,7 +45,7 @@ module.exports = function (config) {
                     }
                 }
                 
-                result.sort((a,b) => a.score - b.score);
+                result.sort((a,b) => b.score - a.score);
 
                 var rank = 0;
                 for(var entry of result) {
