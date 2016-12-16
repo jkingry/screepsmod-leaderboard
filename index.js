@@ -45,7 +45,7 @@ module.exports = function (config) {
                     }
                 }
                 
-                result.sort((a,b) => a.gcl - b.gcl);
+                result.sort((a,b) => a.score - b.score);
 
                 var rank = 0;
                 for(var entry of result) {
